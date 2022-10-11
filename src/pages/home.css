@@ -1,0 +1,134 @@
+.home-image{
+    height: 400px;
+    width: 420px;
+    border-radius: 30px;
+    margin-left: 5rem;
+    border: 3px solid #1746A2;
+}
+.home{
+    width: 100%;
+    height: 690vh;
+}
+.main-home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem 4rem;
+}
+.main-home h3{
+    font-size: 50px;
+    font-weight: bold;
+    color: #FB2576;
+    text-transform: uppercase;
+    max-width: 40rem;
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+.main-home span{
+    font-size: 50px;
+    font-weight: bold;
+    color: #1746A2;
+    text-transform: uppercase;
+    margin-left: 0.4rem;
+}
+.main-home p{
+    font-size: 18px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    color: #1746A2;
+    margin-left: 1rem;
+    max-width: 70rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.shop-btn{
+    background-color: #FB2576;
+    color: white;
+    padding: 0.7rem 0.7rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 12rem;
+    font-size: 1.2rem;
+    transition: all 0.2s ease-in-out;
+}
+.shop-btn:hover{
+    transform: scale(1.2);
+    background-color: #1746A2;
+    color: white;
+}
+
+@media screen and (max-width:425px) {
+    .home-image{
+        height: 450px;
+        width: 450px;
+        margin-left: 12rem;
+        margin-top: 2.5rem;
+    }
+    .main-home h3{
+        max-width: 40rem;
+        margin-left: 6rem;
+        margin-top: 3rem;
+    }
+    .home{
+        height: 320rem;
+    }
+    .main-home span{
+        max-width: 40rem;
+    }
+    .main-home p{
+        margin-left: 6rem;
+        max-width: 100rem;
+        margin-bottom: 2.5rem;
+    }
+    .shop-btn{
+        margin-left: 11rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .home-image{
+        height: 500px;
+        width: 500px;
+        margin-left: 10rem;
+    }
+    .home{
+        height: 315rem;
+    }
+    .main-home{
+        padding: 2rem 5rem;
+    }
+    .main-home h3{
+        margin-top: 1.5rem;
+    }
+    .main-home p{
+        max-width: 100rem;
+        margin-bottom: 2rem;
+    }
+    .shop-btn{
+        margin-left: 5rem;
+        font-size: 1.3rem; 
+    }
+}
+
+@media screen and (max-width:1024px){
+    .home-image{
+        margin-left: 10rem;
+        height: 530px;
+        width: 530px;
+        margin-top: -2rem;
+    }
+    .home{
+        height: 315rem;
+    }
+    .main-home{
+        padding: 2rem 6rem;
+    }
+    .shop-btn{
+        margin-left: 5rem;
+        font-size: 1.3rem; 
+    }
+    .main-home h3{
+        margin-top: 0.1rem;
+    }
+}

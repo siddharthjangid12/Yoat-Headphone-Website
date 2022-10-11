@@ -1,0 +1,43 @@
+.header{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    padding: 0rem 5rem;
+}
+.header h4{
+    color: #FB2576;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+}
+.header span{
+    color: #1746A2;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:425px) {
+    .header h4{
+       padding-right: 5rem;
+       padding-top: 1rem;
+    }
+    .header{
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header h4{
+        padding-left: -9rem;
+        font-size: 50px;
+    }
+    .header span{
+        font-size: 50px;
+    }
+    .header{
+        padding: 0.5rem 0.5rem;
+    }
+}
+
+ 

@@ -1,0 +1,134 @@
+.featured-image{
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    border: 3px solid #1746A2;
+}
+.featured-page{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3rem 6rem;
+    gap: 4rem;
+}
+.featured {
+    height: 90vh;
+    width: 100%;
+    padding-left: 3rem;
+}
+.featured h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    color:#FB2576;
+    font-weight: lighter;
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+.featured span:nth-child(1){
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #1746A2;
+    font-weight: lighter;
+    margin-left: 0.9rem;
+}
+.featured-page h3{
+    color: #FB2576;
+    font-size: 25px;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+}
+.featured-page span{
+    display: flex;
+    color: #FB2576;
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+}
+.featured-page i{
+    margin-right: 0.3rem;
+}
+.featured-page h5{
+    color: #1746A2;
+    margin-left: 1rem;
+    font-size: 14px;
+    margin-top: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-weight: lighter;
+}
+.featured-btn{
+    background-color: #FB2576;
+    color: white;
+    padding: 0.7rem 0.7rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+.featured-btn:hover{
+    background-color: #1746A2;
+    color: white;
+}
+
+@media screen and (max-width:425px) {
+    .featured h2{
+        margin-right: -32rem;
+        margin-top: 9rem;
+        margin-left: 17.5rem;
+        margin-bottom: 2rem;
+    }
+    .featured-page{
+        gap: 6rem;
+    }
+    .featured-page h3{
+        color: #FB2576;
+        font-size: 28px;
+        margin-left: 1rem;
+        margin-top: 0.2rem;
+    }
+    .featured-page span{
+        display: flex;
+        color: #FB2576;
+        margin-left: 1rem;
+        margin-top: 0.3rem;
+    }
+    .featured-page i{
+        margin-right: 0.3rem;
+    }
+    .featured-page h5{
+        color: #1746A2;
+        margin-left: 1rem;
+        font-size: 14px;
+        margin-top: 0.4rem;
+        margin-bottom: 1.5rem;
+        font-weight: lighter;
+    }
+    .featured-btn{
+        background-color: #FB2576;
+        color: white;
+        padding: 0.7rem 0.7rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-left: 1rem;
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .featured h2{
+        margin-left: 22rem;
+        text-align: center;
+    }
+    .featured-btn{
+        font-size: 1.3rem;
+    }
+    .featured-page{
+        gap: 6rem;
+        margin-left: -2.5rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .featured-page{
+        gap: 8rem;
+        margin-left: -1rem;
+    }
+}
+
